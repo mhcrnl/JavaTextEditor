@@ -74,9 +74,9 @@ public final class TextEditor extends JFrame {
                         editorPane.setText(text);
                     } catch (FileNotFoundException ex) {
                     Logger.getLogger(TextEditor.class.getName()).log(Level.SEVERE, null, ex);
-                }catch (IOException ex) {
+                    }catch (IOException ex) {
                     Logger.getLogger(TextEditor.class.getName()).log(Level.SEVERE, null, ex);
-                } finally {
+                    } finally {
                         try {
                             br.close();
                         }catch (IOException ex) {
